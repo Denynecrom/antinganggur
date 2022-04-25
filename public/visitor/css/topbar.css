@@ -1,0 +1,66 @@
+header {
+	display: flex;
+	margin-left: 50px;
+	align-items: center;
+	padding-top: 35px;
+	padding-bottom: 30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.topbar-brand {
+	font-family: viga;
+	font-size: 32px;
+	color: black;
+	margin-left: 15px;
+}
+
+.tombol1 {
+	margin-left: 1250px;
+	padding: 10px 20px;
+	background-color: #f1e4ff;
+	color: #8C30F5;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+.tombol1 a:hover{
+	color: white;
+	text-decoration: none;
+}
+.tombol2 {
+	margin-left: 20px;
+	padding: 10px 20px;
+	border-radius: 8px;
+	color: white;
+	background-color: #8C30F5;
+}
+.tombol2 a:hover{
+	color: white;
+	text-decoration: none;
+}
+.nav__links {
+	z-index: 1;
+	background-color: #2F3C4F;
+	text-align: center;
+	list-style: none;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.nav__links li {
+	display: inline-block;
+	padding: 0px 20px;
+	z-index: 1;
+	
+}
+
+.nav__links li a {
+	transition: all 0.3s ease 0s;
+	color: white;
+	text-decoration: none;
+	z-index: 1;
+}
